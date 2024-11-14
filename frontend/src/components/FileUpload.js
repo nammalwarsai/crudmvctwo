@@ -52,7 +52,7 @@ function FileUpload() {
       
       {data.length > 0 && (
         <div style={{ marginTop: '20px' }}>
-          <h4>Uploaded Data:</h4>
+          <h4>Uploaded Data FROM the system</h4>
           <ul>
             {data.map((item, index) => (
               <li key={index}>
